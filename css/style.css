@@ -58,7 +58,7 @@ body {
 }
 
 .header-top-col-left a:nth-child(2) {
-  padding: 0 20px 0 10px;
+  padding: 0 10px 0 10px;
   border-right: 3px solid #cbd6e2;
 }
 
@@ -68,6 +68,8 @@ body {
 
 .fa-chevron-down{
   padding-left: 10px;
+  color: #7c98b6;
+  margin-right: 10px;
 }
 
 
@@ -96,21 +98,32 @@ body {
   margin-right: 10px;
 }
 
-
 .header-bottom {
   background-color: #ffffff;
   height: 80px;
   line-height: 80px;
 }
 
+.header-bottom-col-right a{
+  font-size: 16px;
+  font-weight: 600;
+  color: #33475b;
+  padding-left: 20px;
+}
+
+.header-bottom-col-right .fa-chevron-down:last-of-type{
+  margin-right: 0 !important;
+}
+
 /* FINE HEADER-TOP E HEADER-BOTTOM */
 
-
-.button {
+/* INIZIO BOTTONI */
+.button-bold {
   background-color: #ff7a59;
   border-radius: 5px;
-  padding: 5px 15px;
+  padding: 28px 35px;
   color: #ffffff;
+  text-decoration: none;
 }
 
 .button-login {
@@ -121,6 +134,9 @@ body {
   color: #ff7a59;
   margin-right: 20px !important;
 }
+.button-login:hover {
+  background-color: #fff8f6;
+}
 
 .button-get-free {
   background-color: #ff7a59;
@@ -128,6 +144,7 @@ body {
   padding: 5px 15px;
   color: #ffffff;
 }
+/* FINE BOTTONI */
 
 .jumbotron {
   background-color: #fff3ef;
@@ -148,7 +165,24 @@ body {
   left: 0;
   top: 50%;
   transform: translateY(-50%);
+}
 
+.text-buttom h1 {
+  color: #33475b;
+  font-size: 55px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+.text-buttom p {
+  color: #33475b;
+  font-weight: 400;
+  margin-bottom: 60px;
+}
+
+.text-buttom p:nth-child(4) {
+  font-size: 12px;
+  margin-top: 60px;
 }
 
 .jumbotron-bottom {
