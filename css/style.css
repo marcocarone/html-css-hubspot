@@ -30,14 +30,22 @@ body {
 
 .header-top li,
 .header-top i,
-.header-top a {
+.header-top a,
+.header-bottom li,
+.header-bottom i,
+.header-bottom a,
+.header-bottom img {
   display: inline-block;
   vertical-align: middle;
   text-decoration: none;
 }
 
-.header-top-col-left {
+.header-top-col-left,
+.header-bottom-col-left,
+.header-top-col-right,
+.header-bottom-col-right {
   float: left;
+  width: 50%;
 }
 
 .header-top-col-left a {
@@ -54,6 +62,10 @@ body {
   padding: 0 5px;
 }
 
+.header-top-col-right ul,
+.header-bottom-col-right {
+  text-align: right;
+}
 .header-top-col-left ul {
   list-style: none;
 }
@@ -63,16 +75,15 @@ body {
   margin-right: 10px;
 }
 
-.header-top-col-right {
-  float: right;
-}
 
 /* FINE HEADER-TOP */
 
+/* INIZIO HEADER-BOTTOM */
 
 .header-bottom {
   background-color: #ffffff;
   height: 80px;
+  line-height: 80px;
 }
 
 
