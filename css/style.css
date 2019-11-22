@@ -383,14 +383,7 @@ body {
   color: #ffffff;
 }
 
-.box-01,
-.box-02,
-.box-03,
-.box-04,
-.box-05,
-.box-06,
-.box-07,
-.box-08 {
+.box-learn {
   float: left;
   width: 25%;
   text-align: center;
@@ -399,27 +392,15 @@ body {
   border-right: 1px solid #ffffff;
 }
 
-.box-05,
-.box-06,
-.box-07,
-.box-08 {
-  border-bottom: 0px solid #ffffff;
-}
-
-
-.box-04,
-.box-08 {
+.no-border-right {
   border-right: 0px solid #ffffff;
 }
 
-.box-01 p,
-.box-02 p,
-.box-03 p,
-.box-04 p,
-.box-05 p,
-.box-06 p,
-.box-07 p,
-.box-08 p {
+.no-border-bottom {
+  border-bottom: 0px solid #ffffff;
+}
+
+.box-learn p {
   color: #ffffff;
   font-weight: 900;
   font-size: 45px;
@@ -431,14 +412,7 @@ span {
   vertical-align: middle;
 }
 
-.box-01 h5,
-.box-02 h5,
-.box-03 h5,
-.box-04 h5,
-.box-05 h5,
-.box-06 h5,
-.box-07 h5,
-.box-08 h5 {
+.box-learn h5 {
   color: #ffffff;
   font-weight: 400;
   font-size: 14px;
