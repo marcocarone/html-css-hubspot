@@ -15,9 +15,8 @@ body {
 }
 
 .container {
-  width: 1280px;
+  width: 1100px;
   margin: 0 auto;
-  padding: 0 40px;
 }
 
 /* INIZIO HEADER-TOP E HEADER-BOTTOM */
@@ -124,6 +123,7 @@ body {
   padding: 28px 35px;
   color: #ffffff;
   text-decoration: none;
+  font-weight: 600;
 }
 
 .button-login {
@@ -144,8 +144,18 @@ body {
   padding: 5px 15px;
   color: #ffffff;
 }
+
+.button-service {
+  background-color: #ff7a59;
+  border-radius: 5px;
+  padding: 18px 25px;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+}
 /* FINE BOTTONI */
 
+/* INIZIO JUMBOTRON */
 .jumbotron {
   background-color: #fff3ef;
   height: 610px;
@@ -174,7 +184,8 @@ body {
   margin-bottom: 20px;
 }
 
-.text-buttom p {
+.text-buttom p,
+.service-top p {
   color: #33475b;
   font-weight: 400;
   margin-bottom: 60px;
@@ -191,3 +202,162 @@ body {
   border-top: 3px solid #33475b;
   border-bottom: 3px solid #33475b;
 }
+/* FINE JUMBOTRON */
+
+.service {
+  background-color: #f4f9fd;
+  padding-bottom: 40px;
+}
+.service-top {
+  width: 790px;
+  padding: 100px 0 20px 0;
+  text-align: center;
+}
+
+.service-top img {
+  width: 280px;
+  margin-bottom: 20px;
+}
+
+.service-top h2 {
+  color: #33475b;
+  font-size: 36px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+.service-container,
+.service-container-uno,
+.service-container-due,
+.service-container-tre {
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 0 11px #eaf0f6;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+.service-col-left {
+  float: left;
+  width: 40%;
+  text-align: center;
+  padding: 50px;
+}
+
+.service-col-left img {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 70px;
+}
+
+.service-col-right {
+  float: left;
+  width: 60%;
+  margin: 50px 0;
+}
+
+.service-col-right h3,
+.service-container-uno h3,
+.service-container-due h3,
+.service-container-tre h3  {
+  color: #33475b;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.service-col-right p,
+.service-container-uno p,
+.service-container-due p,
+.service-container-tre p  {
+  color: #33475b;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.service-col-right h4,
+.service-container-uno h4,
+.service-container-due h4,
+.service-container-tre h4  {
+  color: #33475b;
+  font-size: 12px;
+  font-weight: 900;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.service-hr-left {
+  float: left;
+  width: 30%;
+}
+.service-hr-right {
+  float: left;
+  width: 70%;
+  margin-top: 6px;
+}
+.service-hr-right hr,
+.service-container-uno hr,
+.service-container-due hr,
+.service-container-tre hr {
+  border-bottom: 1px solid #d0d4d8;
+  border-top: none;
+  margin-bottom: 30px;
+}
+
+
+.fa-check-circle {
+  color: #fe775a;
+  padding-right: 10px;
+}
+
+.service-list li {
+  list-style: none;
+  display:inline-block;
+  padding: 15px 15px 0 0;
+}
+
+.service-container-uno,
+.service-container-due,
+.service-container-tre {
+  float: left;
+  width: 31.66%;
+}
+
+.service-container-due {
+  margin: 0 2.5%;
+}
+.service-tre-col img {
+  width: 100%;
+  height: 140px;
+  margin-bottom: 30px;
+}
+
+.service-list-tre-col li {
+  list-style: none;
+  padding: 5px 5px 0 0;
+  font-weight: 600;
+}
+
+
+.service-container-uno h4,
+.service-container-uno h3,
+.service-container-uno hr,
+.service-container-due h4,
+.service-container-due h3,
+.service-container-due hr,
+.service-container-tre h4,
+.service-container-tre h3,
+.service-container-tre hr,
+.button-service  {
+  text-align: center
+}
+
+
+.cont {
+ margin-top: 40px;
+ margin-bottom: 20px;
+ text-align: center;
+}
+
+
+/* INIZIO  SERVICE TRE COL */
