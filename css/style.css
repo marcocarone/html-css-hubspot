@@ -145,6 +145,15 @@ body {
   color: #ffffff;
 }
 
+#button-footer-02 {
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 5px 15px;
+  color: #000000;
+  font-size: 12px;
+}
+
+
 .button-service {
   background-color: #ff7a59;
   border-radius: 5px;
@@ -530,10 +539,17 @@ span {
   font-size: 14px;
   text-decoration: none;
 }
+.footer-bottom-lang a {
+  color: #cbd6e2;
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+}
 .last-footer-col-01 a:hover,
 .last-footer-col-02 a:hover,
 .last-footer-col-03 a:hover,
-.last-footer-col-04 a:hover {
+.last-footer-col-04 a:hover,
+.footer-bottom-lang a:hover {
   color: #53dad9;
 }
 
@@ -543,4 +559,38 @@ span {
 .last-footer-col-04 li {
   padding-bottom: 15px;
   list-style-type: none;
+}
+
+.footer-bottom-lang li {
+  display: inline-block;
+  text-align: center;
+  list-style: none;
+  padding-left: 20px;
+}
+
+.footer-bottom-lang ul,
+.footer-copy-02 li {
+  display: inline-block;
+  list-style: none;
+}
+.footer-bottom-lang nav {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.footer-bottom-lang hr {
+  margin-bottom: 50px;
+}
+.footer-copy-01,
+.footer-copy-02 {
+  float: left;
+  width: 50%;
+}
+
+.footer-copy-02 nav {
+  text-align: right;
+}
+
+.footer-copyright {
+  margin-bottom: 70px;
 }
