@@ -114,7 +114,7 @@ body {
 }
 
 .header-bottom-col-right .fa-chevron-down:last-of-type{
-  margin-right: 0 !important;
+  margin-right: 0;
 }
 
 /* FINE HEADER-TOP E HEADER-BOTTOM */
@@ -129,14 +129,7 @@ body {
   font-weight: 600;
 }
 
-.button-login {
-  background-color: #ffffff;
-  border: 1px solid #ff7a59;
-  border-radius: 5px;
-  padding: 5px 15px;
-  color: #ff7a59;
-  margin-right: 20px !important;
-}
+
 .button-login:hover {
   background-color: #fff8f6;
   transition-duration: 1s;
@@ -157,7 +150,6 @@ body {
   font-size: 12px;
 }
 
-
 .button-service {
   background-color: #ff7a59;
   border-radius: 5px;
@@ -165,6 +157,18 @@ body {
   color: #ffffff;
   text-decoration: none;
   font-weight: 600;
+}
+
+.button-login {
+  background-color: #ffffff;
+  border: 1px solid #ff7a59;
+  border-radius: 5px;
+  padding: 5px 15px;
+  color: #ff7a59;
+
+}
+#button-login {
+  margin-right: 20px;
 }
 /* FINE BOTTONI */
 
@@ -395,9 +399,9 @@ body {
   padding-bottom: 110px;
 }
 
-.learn-grow-color h2,
-.learn-grow-color p {
-  color: #ffffff !important;
+#learn-grow-color h2,
+#learn-grow-color p {
+  color: #ffffff;
 }
 
 .box-01,
@@ -544,28 +548,18 @@ span {
 .footer-link{
   padding: 80px 0;
 }
-.last-footer-col-01,
-.last-footer-col-02,
-.last-footer-col-03,
-.last-footer-col-04 {
+.last-footer-col {
   float: left;
   width: 25%;
 }
 
-.last-footer-col-01 h4,
-.last-footer-col-02 h4,
-.last-footer-col-03 h4,
-.last-footer-col-04 h4 {
+.last-footer-col h4 {
   color: #ffffff;
   font-size: 16px;
   margin-bottom: 10px;
 }
 
-.last-footer-col-01 a,
-.last-footer-col-02 a,
-.last-footer-col-03 a,
-.last-footer-col-04 a
- {
+.last-footer-col a {
   color: #cbd6e2;
   font-size: 14px;
   text-decoration: none;
@@ -581,21 +575,14 @@ span {
 .footer-copy-02 a {
   padding-left: 15px;
 }
-.last-footer-col-01 a:hover,
-.last-footer-col-02 a:hover,
-.last-footer-col-03 a:hover,
-.last-footer-col-04 a:hover,
-.footer-bottom-lang a:hover,
+.last-footer-col a:hover,
 .footer-copy-02 a:hover,
 .social-footer i:hover {
   color: #53dad9;
   transition-duration: 1s;
 }
 
-.last-footer-col-01 li,
-.last-footer-col-02 li,
-.last-footer-col-03 li,
-.last-footer-col-04 li {
+.last-footer-col li {
   padding-bottom: 15px;
   list-style-type: none;
 }
