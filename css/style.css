@@ -75,7 +75,6 @@ body {
   margin-right: 10px;
 }
 
-
 .header-top-col-right a {
   font-size: 14px;
   font-weight: 400;
@@ -120,24 +119,36 @@ body {
 /* FINE HEADER-TOP E HEADER-BOTTOM */
 
 /* INIZIO BOTTONI */
+.button-general {
+  border-radius: 5px;
+}
+
 .button-bold {
   background-color: #ff7a59;
-  border-radius: 5px;
   padding: 28px 35px;
   color: #ffffff;
   text-decoration: none;
   font-weight: 600;
 }
 
+.button-login {
+  background-color: #ffffff;
+  border: 1px solid #ff7a59;
+  padding: 5px 15px;
+  color: #ff7a59;
+}
 
 .button-login:hover {
   background-color: #fff8f6;
   transition-duration: 1s;
 }
 
+#button-login {
+  margin-right: 20px;
+}
+
 .button-get-free {
   background-color: #ff7a59;
-  border-radius: 5px;
   padding: 5px 15px;
   color: #ffffff;
 }
@@ -152,24 +163,12 @@ body {
 
 .button-service {
   background-color: #ff7a59;
-  border-radius: 5px;
   padding: 18px 25px;
   color: #ffffff;
   text-decoration: none;
   font-weight: 600;
 }
 
-.button-login {
-  background-color: #ffffff;
-  border: 1px solid #ff7a59;
-  border-radius: 5px;
-  padding: 5px 15px;
-  color: #ff7a59;
-
-}
-#button-login {
-  margin-right: 20px;
-}
 /* FINE BOTTONI */
 
 /* INIZIO JUMBOTRON */
@@ -247,9 +246,7 @@ body {
 }
 
 .service-container,
-.service-container-uno,
-.service-container-due,
-.service-container-tre {
+.service-container-col {
   background-color: #ffffff;
   border-radius: 5px;
   box-shadow: 0 0 11px #eaf0f6;
@@ -262,13 +259,10 @@ body {
 }
 
 .service-container:hover,
-.service-container-uno:hover,
-.service-container-due:hover,
-.service-container-tre:hover {
+.service-container-col:hover {
   transform:scale(1.1,1.1);
   box-shadow: 0px 0px 16px 4px rgba(191,206,222,1);
 }
-
 
 .service-col-left {
   float: left;
@@ -290,9 +284,7 @@ body {
 }
 
 .service-col-right h3,
-.service-container-uno h3,
-.service-container-due h3,
-.service-container-tre h3  {
+.service-container-col h3 {
   color: #33475b;
   font-size: 24px;
   font-weight: 700;
@@ -300,18 +292,14 @@ body {
 }
 
 .service-col-right p,
-.service-container-uno p,
-.service-container-due p,
-.service-container-tre p  {
+.service-container-col p {
   color: #33475b;
   font-weight: 400;
   margin-bottom: 30px;
 }
 
 .service-col-right h4,
-.service-container-uno h4,
-.service-container-due h4,
-.service-container-tre h4  {
+.service-container-col h4  {
   color: #33475b;
   font-size: 12px;
   font-weight: 900;
@@ -329,14 +317,11 @@ body {
   margin-top: 6px;
 }
 .service-hr-right hr,
-.service-container-uno hr,
-.service-container-due hr,
-.service-container-tre hr {
+.service-container-col hr {
   border-bottom: 1px solid #d0d4d8;
   border-top: none;
   margin-bottom: 30px;
 }
-
 
 .fa-check-circle {
   color: #fe775a;
@@ -349,16 +334,15 @@ body {
   padding: 15px 15px 0 0;
 }
 
-.service-container-uno,
-.service-container-due,
-.service-container-tre {
+.service-container-col {
   float: left;
   width: 31.66%;
 }
 
-.service-container-due {
+.service-container-divisor {
   margin: 0 2.5%;
 }
+
 .service-tre-col img {
   width: 100%;
   height: 140px;
@@ -372,15 +356,9 @@ body {
 }
 
 
-.service-container-uno h4,
-.service-container-uno h3,
-.service-container-uno hr,
-.service-container-due h4,
-.service-container-due h3,
-.service-container-due hr,
-.service-container-tre h4,
-.service-container-tre h3,
-.service-container-tre hr,
+.service-container-col h4,
+.service-container-col h3,
+.service-container-col hr
 .button-service  {
   text-align: center
 }
@@ -575,6 +553,7 @@ span {
 .footer-copy-02 a {
   padding-left: 15px;
 }
+.footer-bottom-lang a:hover,
 .last-footer-col a:hover,
 .footer-copy-02 a:hover,
 .social-footer i:hover {
