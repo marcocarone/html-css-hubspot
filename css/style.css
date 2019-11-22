@@ -360,4 +360,13 @@ body {
 }
 
 
-/* INIZIO  SERVICE TRE COL */
+/* INIZIO  SEZIONE LEARN-GROW */
+.learn-grow {
+  background-image: linear-gradient(to bottom left, #00bda5, #00a4bc);
+  height: 500px;
+}
+
+.learn-grow-color h2,
+.learn-grow-color p {
+  color: #ffffff !important;
+}
