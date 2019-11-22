@@ -60,13 +60,14 @@ body {
   margin: 25px 0;
 }
 
-.header-top-col-left a:nth-child(2) {
-  padding: 0 10px 0 10px;
-  border-right: 3px solid #cbd6e2;
+.fa-globe-europe:before {
+  color: #7c98b6;
 }
 
-.header-top-col-left i:nth-child(1) {
-  color: #7c98b6;
+.divisore {
+  display: inline-block;
+  height: 25px;
+  vertical-align: middle;
 }
 
 .fa-chevron-down{
