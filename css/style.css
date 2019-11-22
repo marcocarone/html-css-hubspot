@@ -251,6 +251,10 @@ body {
   box-shadow: 0 0 11px #eaf0f6;
   padding: 30px;
   margin-bottom: 30px;
+  -webkit-transition: all 0.7s 0s ease;
+  -moz-transition: all 0.7s 0s ease;
+  -o-transition: all 0.7s 0s ease;
+  transition: all 0.7s 0s ease;
 }
 
 .service-container:hover,
@@ -259,7 +263,6 @@ body {
 .service-container-tre:hover {
   transform:scale(1.1,1.1);
   box-shadow: 0px 0px 16px 4px rgba(191,206,222,1);
-  transition-duration: 1s;
 }
 
 
@@ -523,11 +526,14 @@ span {
   height: 500px;
   padding-left: 70px;
   padding-bottom: 50px;
+  -webkit-transition: all 0.7s 0s ease;
+  -moz-transition: all 0.7s 0s ease;
+  -o-transition: all 0.7s 0s ease;
+  transition: all 0.7s 0s ease;
 }
 
 .last-box-02 img:hover {
   transform: scale(1.1,1.1);
-  transition-duration: 1s;
 }
 
 /* INIZIO FOOTER */
@@ -649,6 +655,10 @@ span {
   background-color: #55687a;
   border-radius: 100%;
   box-shadow: 0px -2px 20px -4px rgba(0,0,0,0.42);
+  -webkit-transition: all 0.7s 0s ease;
+  -moz-transition: all 0.7s 0s ease;
+  -o-transition: all 0.7s 0s ease;
+  transition: all 0.7s 0s ease;
 }
 
 .direct-mes img {
@@ -657,5 +667,4 @@ span {
 
 .direct-mes:hover {
   transform: scale(0.9,0.9);
-  transition-duration: 1s;
 }
