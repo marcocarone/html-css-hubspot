@@ -569,8 +569,8 @@ span {
   margin-bottom: 30px;
 }
 
-.footer-bottom-lang hr {
-  border: 1px solid #5a738c;
+.footer-bottom-lang {
+  border-bottom: 1px solid #5a738c;
   margin-bottom: 50px;
 }
 
