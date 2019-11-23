@@ -506,7 +506,7 @@ span {
 }
 
 .footer-link{
-  padding: 80px 0;
+  padding: 80px 0 20px 0;
 }
 .last-footer-col {
   float: left;
@@ -564,14 +564,14 @@ span {
 .social-footer li {
   padding: 5px 20px 0 0;
 }
-.footer-bottom-lang nav {
-  text-align: center;
-  margin-bottom: 30px;
-}
 
 .footer-bottom-lang {
+  text-align: center;
   border-bottom: 1px solid #5a738c;
   margin-bottom: 50px;
+  height: 100px;
+  line-height: 100px;
+  vertical-align: middle;
 }
 
 .footer-copyright {
