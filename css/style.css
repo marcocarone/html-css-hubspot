@@ -19,6 +19,12 @@ body {
   margin: 0 auto;
 }
 
+.transition {
+  -webkit-transition: all 0.7s 0s ease;
+  -moz-transition: all 0.7s 0s ease;
+  -o-transition: all 0.7s 0s ease;
+  transition: all 0.7s 0s ease;
+}
 /* INIZIO HEADER-TOP E HEADER-BOTTOM */
 
 .header-top {
@@ -44,10 +50,7 @@ body {
   text-decoration: none;
 }
 
-.header-top-col-left,
-.header-bottom-col-left,
-.header-top-col-right,
-.header-bottom-col-right {
+.float-left-50 {
   float: left;
   width: 50%;
 }
@@ -73,7 +76,6 @@ body {
 .fa-chevron-down{
   padding-left: 10px;
   color: #7c98b6;
-  margin-right: 10px;
 }
 
 .header-top-col-right a {
@@ -131,6 +133,10 @@ body {
   text-decoration: none;
   font-weight: 600;
 }
+.button-bold:hover {
+  background-color: #ff8f73;
+  transition-duration: 1s;
+}
 
 .button-login {
   background-color: #ffffff;
@@ -154,6 +160,11 @@ body {
   color: #ffffff;
 }
 
+.button-get-free:hover {
+  background-color: #ff8f73;
+  transition-duration: 1s;
+}
+
 #button-footer-02 {
   background-color: #ffffff;
   border-radius: 5px;
@@ -170,6 +181,10 @@ body {
   font-weight: 600;
 }
 
+.button-service:hover {
+  background-color: #ff8f73;
+  transition-duration: 1s;
+}
 /* FINE BOTTONI */
 
 /* INIZIO JUMBOTRON */
@@ -253,10 +268,6 @@ body {
   box-shadow: 0 0 11px #eaf0f6;
   padding: 30px;
   margin-bottom: 30px;
-  -webkit-transition: all 0.7s 0s ease;
-  -moz-transition: all 0.7s 0s ease;
-  -o-transition: all 0.7s 0s ease;
-  transition: all 0.7s 0s ease;
 }
 
 .service-container:hover,
@@ -483,10 +494,6 @@ span {
   height: 500px;
   padding-left: 70px;
   padding-bottom: 50px;
-  -webkit-transition: all 0.7s 0s ease;
-  -moz-transition: all 0.7s 0s ease;
-  -o-transition: all 0.7s 0s ease;
-  transition: all 0.7s 0s ease;
 }
 
 .last-box-02 img:hover {
@@ -555,7 +562,7 @@ span {
   list-style: none;
 }
 .social-footer li {
-  padding-left: 10px;
+  padding: 5px 20px 0 0;
 }
 .footer-bottom-lang nav {
   text-align: center;
@@ -596,10 +603,6 @@ span {
   background-color: #55687a;
   border-radius: 100%;
   box-shadow: 0px -2px 20px -4px rgba(0,0,0,0.42);
-  -webkit-transition: all 0.7s 0s ease;
-  -moz-transition: all 0.7s 0s ease;
-  -o-transition: all 0.7s 0s ease;
-  transition: all 0.7s 0s ease;
 }
 
 .direct-mes img {
