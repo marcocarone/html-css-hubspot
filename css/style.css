@@ -156,6 +156,35 @@ margin: 0;
 padding: 0 10px;
 }
 
+.triangle::after{
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: -9px;
+  box-sizing: border-box;
+  border: 10px solid grey;
+  border-color: transparent transparent #ffffff #ffffff;
+  transform: rotate(135deg);
+  box-shadow: -1px 1px 1px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .triangle-01::after {
+    left: 75px;
+  }
+.triangle-02::after {
+  left: 92px;
+}
+.triangle-03::after {
+  left: 101px;
+}
+.triangle-04::after {
+  left: 88px;
+}
+.triangle-05::after {
+  left: 72px;
+}
+
 /* FINE IMPOSTAZIONI MENU */
 
 /* INIZIO BOTTONI */
