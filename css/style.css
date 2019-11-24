@@ -126,6 +126,38 @@ body {
 
 /* FINE HEADER-TOP E HEADER-BOTTOM */
 
+/* IMPOSTAZIONI MENU */
+.dropdown:hover .contenuto-dropdown,
+.submenu li {
+  display: block;
+}
+
+.contenuto-dropdown {
+  display: none;
+  position: absolute;
+  min-width: 100px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  border: 1px solid #cbd6e2;
+  line-height: 36px;
+  z-index: 5;
+  text-align: left;
+}
+.submenu li {
+  padding-right: 20px;
+}
+.submenu li:hover {
+  background-color: #e5f5f8;
+}
+
+#submenu-top-header a,
+#submenu-top-header li {
+margin: 0;
+padding: 0 10px;
+}
+
+/* FINE IMPOSTAZIONI MENU */
+
 /* INIZIO BOTTONI */
 .button-general {
   border-radius: 5px;
