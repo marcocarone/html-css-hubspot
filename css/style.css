@@ -11,7 +11,7 @@ body {
 .clearfix::after {
   content: "";
   display: table;
-  clear:both;
+  clear: both;
 }
 
 .container {
@@ -25,8 +25,8 @@ body {
   -o-transition: all 0.7s 0s ease;
   transition: all 0.7s 0s ease;
 }
-/* INIZIO HEADER-TOP E HEADER-BOTTOM */
 
+/* INIZIO HEADER-TOP E HEADER-BOTTOM */
 .header-top {
   position: fixed;
   top: 0;
@@ -73,7 +73,7 @@ body {
   vertical-align: middle;
 }
 
-.fa-chevron-down{
+.fa-chevron-down {
   padding-left: 10px;
   color: #7c98b6;
 }
@@ -93,6 +93,7 @@ body {
 .header-bottom-col-right {
   text-align: right;
 }
+
 .header-top-col-left ul {
   list-style: none;
 }
@@ -106,26 +107,25 @@ body {
   height: 80px;
   line-height: 80px;
   margin-top: 72.5px;
-  -webkit-box-shadow: 0px 3px 9px 0px rgba(0,0,0,0.1);
-  -moz-box-shadow: 0px 3px 9px 0px rgba(0,0,0,0.1);
-  box-shadow: 0px 3px 9px 0px rgba(0,0,0,0.1);
+  -webkit-box-shadow: 0px 3px 9px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 3px 9px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 3px 9px 0px rgba(0, 0, 0, 0.1);
   position: relative;
   z-index: 2;
 }
 
-.header-bottom-col-right a{
+.header-bottom-col-right a {
   font-size: 16px;
   font-weight: 600;
   color: #33475b;
   padding-left: 20px;
 }
 
-.header-bottom-col-right .fa-chevron-down:last-of-type{
+.header-bottom-col-right .fa-chevron-down:last-of-type {
   margin-right: 0;
 }
 
 /* FINE HEADER-TOP E HEADER-BOTTOM */
-
 /* IMPOSTAZIONI MENU */
 .dropdown:hover .contenuto-dropdown,
 .submenu li {
@@ -143,20 +143,22 @@ body {
   z-index: 5;
   text-align: left;
 }
+
 .submenu li {
   padding-right: 20px;
 }
+
 .submenu li:hover {
   background-color: #e5f5f8;
 }
 
 #submenu-top-header a,
 #submenu-top-header li {
-margin: 0;
-padding: 0 10px;
+  margin: 0;
+  padding: 0 10px;
 }
 
-.triangle::after{
+.triangle::after {
   content: "";
   position: absolute;
   width: 0;
@@ -167,26 +169,29 @@ padding: 0 10px;
   border-color: transparent transparent #ffffff #ffffff;
   transform: rotate(135deg);
   box-shadow: -1px 1px 1px 0 rgba(0, 0, 0, 0.2);
-  }
+}
 
-  .triangle-01::after {
-    left: 75px;
-  }
+.triangle-01::after {
+  left: 75px;
+}
+
 .triangle-02::after {
   left: 92px;
 }
+
 .triangle-03::after {
   left: 101px;
 }
+
 .triangle-04::after {
   left: 88px;
 }
+
 .triangle-05::after {
   left: 72px;
 }
 
 /* FINE IMPOSTAZIONI MENU */
-
 /* INIZIO BOTTONI */
 .button-general {
   border-radius: 5px;
@@ -199,6 +204,7 @@ padding: 0 10px;
   text-decoration: none;
   font-weight: 600;
 }
+
 .button-bold:hover {
   background-color: #ff8f73;
   transition-duration: 1s;
@@ -251,8 +257,8 @@ padding: 0 10px;
   background-color: #ff8f73;
   transition-duration: 1s;
 }
-/* FINE BOTTONI */
 
+/* FINE BOTTONI */
 /* INIZIO JUMBOTRON */
 .jumbotron {
   background-color: #fff3ef;
@@ -293,7 +299,7 @@ padding: 0 10px;
 }
 
 .text-buttom p:nth-child(4),
- .last-box-01 p:nth-child(4) {
+.last-box-01 p:nth-child(4) {
   font-size: 12px;
   margin-top: 60px;
 }
@@ -304,12 +310,13 @@ padding: 0 10px;
   border-top: 3px solid #33475b;
   border-bottom: 3px solid #33475b;
 }
-/* FINE JUMBOTRON */
 
+/* FINE JUMBOTRON */
 .service {
   background-color: #f4f9fd;
   padding-bottom: 40px;
 }
+
 .service-top {
   width: 790px;
   padding: 100px 0 20px 0;
@@ -340,8 +347,8 @@ padding: 0 10px;
 
 .service-container:hover,
 .service-container-col:hover {
-  transform:scale(1.03,1.03);
-  box-shadow: 0px 0px 16px 4px rgba(191,206,222,1);
+  transform: scale(1.03, 1.03);
+  box-shadow: 0px 0px 16px 4px rgba(191, 206, 222, 1);
 }
 
 .service-col-left {
@@ -379,7 +386,7 @@ padding: 0 10px;
 }
 
 .service-col-right h4,
-.service-container-col h4  {
+.service-container-col h4 {
   color: #33475b;
   font-size: 12px;
   font-weight: 900;
@@ -391,11 +398,13 @@ padding: 0 10px;
   float: left;
   width: 30%;
 }
+
 .service-hr-right {
   float: left;
   width: 70%;
   margin-top: 6px;
 }
+
 .service-hr-right hr,
 .service-container-col hr {
   border-bottom: 1px solid #d0d4d8;
@@ -410,7 +419,7 @@ padding: 0 10px;
 
 .service-list li {
   list-style: none;
-  display:inline-block;
+  display: inline-block;
   padding: 15px 15px 0 0;
 }
 
@@ -435,21 +444,17 @@ padding: 0 10px;
   font-weight: 600;
 }
 
-
 .service-container-col h4,
 .service-container-col h3,
-.service-container-col hr
-.button-service  {
+.service-container-col hr .button-service {
   text-align: center
 }
 
-
 .cont {
- margin-top: 40px;
- margin-bottom: 20px;
- text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  text-align: center;
 }
-
 
 /* INIZIO  SEZIONE LEARN-GROW by carone marco */
 .learn-grow {
@@ -476,6 +481,7 @@ padding: 0 10px;
   line-height: 40px;
   vertical-align: middle;
 }
+
 .no-border-right {
   border-right: 0px solid #ffffff;
 }
@@ -503,7 +509,6 @@ span {
 }
 
 /* FINE  SEZIONE LEARN-GROW by carone marco*/
-
 .last-section-main {
   background-color: #f4f9fd;
   padding-top: 70px;
@@ -534,9 +539,11 @@ span {
   width: 100px;
   vertical-align: middle;
 }
+
 .customer {
   margin-bottom: 90px;
 }
+
 .customer span {
   color: #33475b;
   font-size: 36px;
@@ -550,7 +557,6 @@ span {
   font-weight: 600;
   margin-bottom: 20px;
 }
-
 
 .last-box-01 {
   float: left;
@@ -570,7 +576,7 @@ span {
 }
 
 .last-box-02 img:hover {
-  transform: scale(1.1,1.1);
+  transform: scale(1.1, 1.1);
 }
 
 /* INIZIO FOOTER */
@@ -578,9 +584,10 @@ span {
   background-color: #32495b;
 }
 
-.footer-link{
+.footer-link {
   padding: 80px 0 20px 0;
 }
+
 .last-footer-col {
   float: left;
   width: 25%;
@@ -597,6 +604,7 @@ span {
   font-size: 14px;
   text-decoration: none;
 }
+
 .footer-bottom-lang a,
 .footer-copy-02 a,
 .social-footer i {
@@ -605,9 +613,11 @@ span {
   font-weight: 600;
   text-decoration: none;
 }
+
 .footer-copy-02 a {
   padding-left: 15px;
 }
+
 .footer-bottom-lang a:hover,
 .last-footer-col a:hover,
 .footer-copy-02 a:hover,
@@ -634,6 +644,7 @@ span {
   display: inline-block;
   list-style: none;
 }
+
 .social-footer li {
   padding: 5px 20px 0 0;
 }
@@ -675,7 +686,7 @@ span {
   margin-bottom: 30px;
   background-color: #55687a;
   border-radius: 100%;
-  box-shadow: 0px -2px 20px -4px rgba(0,0,0,0.42);
+  box-shadow: 0px -2px 20px -4px rgba(0, 0, 0, 0.42);
 }
 
 .direct-mes img {
@@ -683,5 +694,5 @@ span {
 }
 
 .direct-mes:hover {
-  transform: scale(0.9,0.9);
+  transform: scale(0.9, 0.9);
 }
